@@ -1,4 +1,4 @@
-- [shkedia-photo-gallery-backend](#shkedia-photo-gallery-backend)
+- [shkedia-photo-template](#shkedia-photo-template)
 - [Overview](#overview)
 - [Deploy](#deploy)
   - [Local Deployment](#local-deployment)
@@ -9,10 +9,23 @@
     - [Running Tests](#running-tests)
 
 
-# shkedia-photo-gallery-backend
+# shkedia-photo-template
 # Overview
-The gallery backend for the ShkediPhoto Private Cloud System.  
-The component is responsibly to serve the entire system to the users. Mostly the preview images and insights in the future.
+This is a template for the project.  
+It includes raw documentation structure and will grow in the future.  
+Make sure to change the components name according to your need in all the scripts added to the template.  
+The current template was copied from the start of the gallery backend project and the packages and naming suits that.
+
+**Action to use template**
+1. Update your requirements.txt
+2. Update the variables names in the following files:
+   1. README
+   2. docker-compose
+3. Update the entrypoint in the Dockerfile to fit your framework (DJange, Uvicorn (for FastAPI) or vanilla python)
+4. Set the development and production ports in the following files:
+   1. docker-compose
+   2. .devcontainer/devcontainer.json
+
 
 # Deploy
 ## Local Deployment
